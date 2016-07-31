@@ -1,0 +1,14 @@
+﻿@model LobbyWebServer.Models.LobbyMonitorModel
+
+<div class="row">
+    <ul>
+        @{
+            foreach (LobbyServiceDataModels.Interfaces.ILobbyUserStatus user in Model.Users)
+            {
+                <li>@user.UserId.ToString()</li>
+            }
+        }
+    </ul>
+</div>
+
+

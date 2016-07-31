@@ -3,3 +3,12 @@
 ################################################################################
 
 /src/packages
+/src/.vs/LobbyService/v14
+/src/DataStoreService/bin
+/src/DataStoreService/obj
+/src/LobbyService/bin
+/src/LobbyService/obj
+/src/LobbyServiceWebAPIModels/bin
+/src/LobbyServiceWebAPIModels/obj
+/src/LobbyWebServer/bin
+/src/LobbyWebServer/obj
